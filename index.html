@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>记事本</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="flex1">
+        <div class="kuai1">
+            <img src="./images/images/sky1.jpg" class="img " >
+        </div>
+        <div class="kuai2 flex1">
+            <a href="https://space.bilibili.com/96081167/dynamic" class="font1" >注册会计师</a>
+            <a href="https://space.bilibili.com/12719815?spm_id_from=333.337.search-card.all.click" class="font1" >catti三级笔译证书英语</a>
+            <a href="https://www.freecodecamp.org/chinese/learn" class="font1" >Javascript基础认证</a>
+            <a href="https://space.bilibili.com/252089448/favlist?spm_id_from=333.999.0.0" class="font1" >健身</a>
+            <a href="./index6.html" class="font1" >个人网页</a>
+        </div>
+        <script>
+            (function(){  //匿名函数，页面开始就加载
+    var img=document.getElementsByTagName("img")[0]; //获取图片
+    var arr=["./images/images/sky1.jpg","./images/images/sky4.jpg","./images/images/sky2.jpg","./images/images/sky3.png"]; //定义图片数组
+    var num=0;
+    //设置定时器，调用函数执行
+    function inv(){
+       num++;
+       if(num>=arr.length){
+           num=0;
+       }
+       console.log(num);
+       img.src=arr[num];
+     }   
+     setInterval(inv,20000); 
+    }
+)()
+        </script>
+    </div>
+</body>
+</html>
