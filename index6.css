@@ -1,0 +1,68 @@
+body{
+    background-image: url(./images/images/伏黑1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.wenben{
+    height: 400px;
+    width: 200px;
+    background-color: aqua;
+}
+#shuru{
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 400;
+    width: 260px;
+    height: 150px;
+    outline: none;
+    border: none;
+    color: rgb(251, 242, 244);
+    text-shadow: 0 0 4px #32003C,
+    0 0 4px #32003C,
+    0 0 4px #32003C,
+    0 0 4px #32003C,
+    0 0 4px #32003C,
+    0 0 4px #32003C,
+    0 0 4px #32003C;
+}
+#xinzeng{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;    
+}
+#xinzeng:hover{
+    background-color:aqua
+}
+#anniu{
+    margin-top: 50px;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+#anniu:hover{
+    background-color:aqua
+}
+.login{
+    font-size: 26px;
+    color:black;
+}
+.kuai{
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    width: 400px;
+    height: 350px;
+    background-color: rgba(191, 189, 189, 0.5);
+    border-radius: 25px;
+    text-align: center;
+}
